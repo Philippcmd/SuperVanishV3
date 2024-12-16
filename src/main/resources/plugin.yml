@@ -1,0 +1,23 @@
+name: SuperVanishV3
+version: '${project.version}'
+main: dev.philippcmd.supervanish.Main
+api-version: '1.21'
+
+commands:
+  vanish:
+    description: vanishes the player
+    usage: /vanish
+    permission: vanish.use
+    permission-message: You do not have permission to run that command
+
+  vanish-show:
+    description: shows normal vanished players
+    usage: /vanish-show
+    permission: vanish.show
+    permission-message: You do not have permission to run that command
+
+  supervanish:
+    description: supervanishes the player
+    usage: /supervanish
+    permission: vanish.supervanish
+    permission-message: You do not have permission to run that command
