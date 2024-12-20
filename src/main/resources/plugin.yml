@@ -16,6 +16,12 @@ commands:
     permission: vanish.show
     permission-message: You do not have permission to run that command
 
+  vanish-list:
+    description: List all vanished players.
+    usage: /vanish-list
+    permission: vanish.list
+    permission-message: You do not have permission to run that command
+
   supervanish:
     description: supervanishes the player
     usage: /supervanish
