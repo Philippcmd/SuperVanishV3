@@ -1,0 +1,36 @@
+![](https://raw.githubusercontent.com/Philippcmd/SuperVanishV3/refs/heads/master/super-vanish_icon.png "Banner")
+# SuperVanish
+
+[![build](https://img.shields.io/github/actions/workflow/status/PhilippCMD/SuperVanishV3/gradle.yml)](https://github.com/Philippcmd/SuperVanishV3/actions)
+[![Downloads](https://img.shields.io/modrinth/dt/rabHya7R)](https://modrinth.com/plugin/supervanish/versions)
+[![Discord](https://img.shields.io/discord/1221168987585642586?style=flat&logo=discord&label=discord)](https://discord.com/invite/rxgC2BZT64)
+
+SuperVanish Plugin is a simple tool for Spigot, Paper and Bukkit Minecraft serves to hide you as server operator
+
+The latest downloads can be found on [Modrinth](https://modrinth.com/plugin/supervanish/versions) 
+
+## How to use:
+
+Get operator on the server the plugin is installed, then you get the required permissions. Then you are able to make yourself invisible for other players using /vanish. To make vanished players visible type /vanish-show or type /vanish-list to generate a list of vanished players Now you can see vanished players. If you use /supervanish, you are in the supervanish. This means they can't be detected with /vanish-show or /vanish-list.
+
+
+
+## Building
+Gradle is used to construct DebugStickFlowerPot.
+
+#### System Requirements
+* Java JDK 17 
+* Git
+
+#### Compiling code from source
+```sh
+git clone https://github.com/Philippcmd/SuperVanishV3.git
+cd SuperVanishV3/
+./gradlew build
+```
+
+You can find the compiled jar in `build/libs`.
+
+
+## License
+The SuperVanishV3 Plugin is licensed under the ARR license. See [`LICENSE.txt`](https://github.com/Philippcmd/SuperVanishV3/blob/master/LICENSE.txt) for more info.
