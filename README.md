@@ -16,7 +16,7 @@ Get operator on the server the plugin is installed, then you get the required pe
 
 
 ## Building
-Gradle is used to construct DebugStickFlowerPot.
+Gradle is used to construct SuperVanish.
 
 #### System Requirements
 * Java JDK 17 
