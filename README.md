@@ -22,7 +22,7 @@ Gradle is used to construct SuperVanish.
 * Java JDK 17 
 * Git
 
-#### Compiling code from source
+#### Compiling from source
 ```sh
 git clone https://github.com/Philippcmd/SuperVanishV3.git
 cd SuperVanishV3/
