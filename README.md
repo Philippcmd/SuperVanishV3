@@ -3,6 +3,7 @@
 
 [![build](https://img.shields.io/github/actions/workflow/status/PhilippCMD/SuperVanishV3/gradle.yml)](https://github.com/Philippcmd/SuperVanishV3/actions)
 [![Downloads](https://img.shields.io/modrinth/dt/rabHya7R)](https://modrinth.com/plugin/supervanish/versions)
+[![license](https://img.shields.io/github/license/PhilippCMD/Supervanishv3)](https://raw.githubusercontent.com/Philippcmd/SuperVanishV3/refs/heads/master/LICENSE.txt)
 [![Discord](https://img.shields.io/discord/1221168987585642586?style=flat&logo=discord&label=discord)](https://discord.com/invite/rxgC2BZT64)
 
 SuperVanish Plugin is a simple tool for Spigot, Paper and Bukkit Minecraft servers to hide you as server-operator/admin
