@@ -1,5 +1,5 @@
 name: SuperVanishV3
-version: '${project.version}'
+version: '3.1.0'
 main: dev.philippcmd.supervanish.Main
 api-version: '1.21'
 
