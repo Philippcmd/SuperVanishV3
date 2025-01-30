@@ -5,13 +5,13 @@
 [![Downloads](https://img.shields.io/modrinth/dt/rabHya7R)](https://modrinth.com/plugin/supervanish/versions)
 [![Discord](https://img.shields.io/discord/1221168987585642586?style=flat&logo=discord&label=discord)](https://discord.com/invite/rxgC2BZT64)
 
-SuperVanish Plugin is a simple tool for Spigot, Paper and Bukkit Minecraft serves to hide you as server operator
+SuperVanish Plugin is a simple tool for Spigot, Paper and Bukkit Minecraft servers to hide you as server-operator/admin
 
 The latest downloads can be found on [Modrinth](https://modrinth.com/plugin/supervanish/versions) 
 
 ## How to use:
 
-Get operator on the server the plugin is installed, then you get the required permissions. Then you are able to make yourself invisible for other players using /vanish. To make vanished players visible type /vanish-show or type /vanish-list to generate a list of vanished players Now you can see vanished players. If you use /supervanish, you are in the supervanish. This means they can't be detected with /vanish-show or /vanish-list.
+Get operator rights or the permssions from the `plugin.yml`. Then you are able to make yourself invisible for other players using /vanish. To make vanished players visible type /vanish-show or type /vanish-list to generate a list of vanished players Now you can see vanished players. If you use /supervanish, you are in the supervanish. This means they can't be detected with /vanish-show or /vanish-list.
 
 
 
