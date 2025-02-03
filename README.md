@@ -34,4 +34,4 @@ You can find the compiled jar in `build/libs`.
 
 
 ## License
-The SuperVanishV3 Plugin is licensed under the ARR license. See [`LICENSE.txt`](https://github.com/Philippcmd/SuperVanishV3/blob/master/LICENSE.txt) for more info.
+The SuperVanishV3 Plugin is licensed under the MIT license. See [`LICENSE.txt`](https://github.com/Philippcmd/SuperVanishV3/blob/master/LICENSE.txt) for more info.
