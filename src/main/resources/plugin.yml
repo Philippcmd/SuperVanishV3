@@ -27,3 +27,20 @@ commands:
     usage: /supervanish
     permission: vanish.supervanish
     permission-message: You do not have permission to run that command
+
+permissions:
+  vanish.use:
+    description: Allows usage of /vanish
+    default: op
+
+  vanish.show:
+    description: Allows usage of /vanish-show
+    default: op
+
+  vanish.list:
+    description: Allows usage of /vanish-list
+    default: op
+
+  vanish.supervanish:
+    description: Allows usage of /supervanish
+    default: op
