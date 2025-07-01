@@ -5,22 +5,17 @@
  */
 
 plugins {
+    id("java")
     `java-library`
     `maven-publish`
 }
 
 repositories {
     mavenLocal()
-    maven {
-        url = uri("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
-    }
-
+    mavenCentral()
+    maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
     maven {
         url = uri("https://oss.sonatype.org/content/groups/public/")
-    }
-
-    maven {
-        url = uri("https://repo.maven.apache.org/maven2/")
     }
 }
 
@@ -31,7 +26,12 @@ dependencies {
 group = "dev.philippcmd"
 version = "1.21.x_3.0"
 description = "SuperVanishV3"
-java.sourceCompatibility = JavaVersion.VERSION_1_8
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
+}
 
 publishing {
     publications.create<MavenPublication>("maven") {
