@@ -1,5 +1,5 @@
-name: SuperVanishV3
-version: '3.1.0'
+name: SuperVanish
+version: '3.2.1'
 main: dev.philippcmd.supervanish.Main
 api-version: '1.21'
 
@@ -44,3 +44,11 @@ permissions:
   vanish.supervanish:
     description: Allows usage of /supervanish
     default: op
+
+  vanish.*:
+    description: master permission
+    children:
+      - vanish.use
+      - vanish.show
+      - vanish.list
+      - vanish.supervanish

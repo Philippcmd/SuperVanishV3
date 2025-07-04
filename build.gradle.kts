@@ -24,8 +24,8 @@ dependencies {
 }
 
 group = "dev.philippcmd"
-version = "1.21.x_3.0"
-description = "SuperVanishV3"
+version = "1.21.x_3.2.1"
+description = "SuperVanish"
 
 java {
     toolchain {
