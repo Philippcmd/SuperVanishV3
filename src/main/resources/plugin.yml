@@ -1,5 +1,5 @@
 name: SuperVanish
-version: '3.2.1'
+version: '3.2.2'
 main: dev.philippcmd.supervanish.Main
 api-version: '1.21'
 
@@ -25,6 +25,7 @@ commands:
   supervanish:
     description: supervanishes the player
     usage: /supervanish
+    aliases: [sv]
     permission: vanish.supervanish
     permission-message: You do not have permission to run that command
 
