@@ -24,7 +24,7 @@ dependencies {
 }
 
 group = "dev.philippcmd"
-version = "1.21.x_3.2.2"
+version = "1.21.x_3.2.3"
 description = "SuperVanish"
 
 java {
