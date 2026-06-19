@@ -96,10 +96,12 @@ public class VanishManager {
 
         if (superVanish) {
             superVanishedPlayers.add(player);
+            vanishedPlayers.remove(player);
             persistentSuperVanished.add(player.getUniqueId());
             persistentVanished.remove(player.getUniqueId());
         } else {
             vanishedPlayers.add(player);
+            superVanishedPlayers.remove(player);
             persistentVanished.add(player.getUniqueId());
             persistentSuperVanished.remove(player.getUniqueId());
         }
